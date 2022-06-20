@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2? family= Anek+Malayalam & display=swap');
+
+h3 {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 10px 10px 0px;
+}
+
+
+body {
+    font-family: 'Anek Malayalam', sans-serif;
+    background: url(pf-s124-ak-2681_2.jpg);
+    padding: 100px 0;
+}
+
+.container {
+    width: 800px;
+    min-height: 800px;
+    border: 10px solid white;
+    margin: 0 auto;
+    background: #fff;
+}
+
+.header {
+    display: flex;
+    height: 150px;
+}
+
+.title-block {
+    position: relative;
+    display: flex;
+    width: 80%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    background: url(https://thumbs.dreamstime.com/b/desktop-source-code-wallpaper-computer-language-codi-desktop-source-code-technology-background-developer-124935197.jpg) no-repeat center center / cover;
+    color: #fff;
+    margin-right: 10px;
+}
+
+.title-block::after {
+content: "";
+position: absolute;
+left: 0;
+top: 0;
+width: 100%;
+height: 100%;
+background: rgb(0, 0, 0);
+opacity: 0.5;
+}
+
+.title {
+    position: relative;
+    z-index: 1;
+}
+
+.userpic {
+display: flex;
+height: 100%;
+width: 20%;
+background: url(https://img.freepik.com/free-photo/portrait-white-cat-wearing-glasses_43525-1167.jpg) no-repeat center center / cover;
+}
+
+.nav ul {
+    display: flex;
+    background: rgb(50, 50, 50);
+    margin: 5px;
+}
+
+
+
+.nav li a {
+    padding: 20px;
+    display: flex;
+    text-decoration: none;
+    color: rgb(196, 196, 196);
+    font-weight: bold;
+    border-right: 1px solid rgb(248, 131, 131);
+    transition: all 1s ease;
+   
+}
+
+.nav li a:hover {
+    background: rgb(134, 134, 134);
+    
+}
+
+.content-wrapper {
+    display: flex;
+}
+
+.content {
+width: 70%;
+padding: 20px;
+}
+
+.content p {
+    line-height: 20px;
+}
+
+.sidebar {
+padding: 20px;
+width: 30%;
+text-align: center;
+}
+
+.skills li {
+    padding: 10px 0;
+    transition: transform .5s ease;
+    cursor: pointer;
+}
+
+.skills li:hover {
+   transform: translateX(10px);
+}
